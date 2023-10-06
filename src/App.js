@@ -6,17 +6,20 @@ import Nav_menu from './components/Nav Menu/nav_menu';
 import HeroSection from './components/hero/heroSection';
 import Project_container from './components/project container/project_container';
 import About from './components/about/about';
+import Contact from './components/contact/contact';
 
 function App() {
   return (
     <div className="App">
-      {/* <Nav_menu/> */}
-      {/* <HeroSection/> */}
+      <Nav_menu/>
+      <HeroSection/>
 
-     {/* <Skillt_carocel/> */}
+     <Skillt_carocel/>
      <About/>
      
-     {/* <Project_container/> */}
+     <Project_container/>
+
+     <Contact/>
     
     </div>
   );
