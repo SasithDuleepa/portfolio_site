@@ -2,6 +2,7 @@
     position: fixed;
     width: 200px;
     height: 200px;
+    z-index: 1;
 }
 .nav_menu_container{
     display: flex;
@@ -43,6 +44,7 @@
 }
 .nav_menu_p{
  display: none;
+ width: 70px;
  font-size: 24px;
         margin: 5px;
         position: relative;

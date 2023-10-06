@@ -1,10 +1,10 @@
 import React from 'react';
-import './project_carocel.css';
-import ProjectCard from './../project card/projectCard'
+import './skill_carocel.css';
 
-export default function Project_carocel() {
+
+export default function Skill_carocel() {
   return (
-    <div>
+    <div className='projects'>
         <div className="container">
   <div className="carousel">
     <div className="carousel__face"><span>Front End Developper</span></div>

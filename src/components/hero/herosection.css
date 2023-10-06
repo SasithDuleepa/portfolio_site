@@ -1,0 +1,32 @@
+.herosection{
+    height: 100vh;
+    width: 98.9vw;
+    background-color: rgb(15, 33, 33);
+    padding: 0px ;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-image: url('./../../assets//cover1.jpg');
+    background-size: cover;
+    filter: brightness(60%);
+}
+.herosection-div1{
+    /* background-color: antiquewhite; */
+    height: 95%;
+    width: 745px;
+}
+.herosection-div2{
+    /* background-color: rgb(57, 52, 44); */
+    height: 95%;
+    width: 745px;
+}
+
+
+.hero-img-1{
+    width:min-content;
+
+}
+
+.hero-p1{
+    color: aliceblue;
+}
