@@ -5,16 +5,18 @@ import Skillt_carocel from './components/skill carocel/skill_carocel';
 import Nav_menu from './components/Nav Menu/nav_menu';
 import HeroSection from './components/hero/heroSection';
 import Project_container from './components/project container/project_container';
+import About from './components/about/about';
 
 function App() {
   return (
     <div className="App">
       {/* <Nav_menu/> */}
-      <HeroSection/>
+      {/* <HeroSection/> */}
 
-     <Skillt_carocel/>
+     {/* <Skillt_carocel/> */}
+     <About/>
      
-     <Project_container/>
+     {/* <Project_container/> */}
     
     </div>
   );

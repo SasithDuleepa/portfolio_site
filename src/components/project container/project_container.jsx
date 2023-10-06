@@ -8,7 +8,7 @@ export default function Project_container() {
         <ProjectCard/>
         <ProjectCard/>
         <ProjectCard/>
-        <ProjectCard/>
+        
     </div>
   )
 }
