@@ -1,5 +1,6 @@
 import './App.css';
 
+import Header from './components/header/header';
 import ProjectCard from './components/project card/projectCard';
 import Skillt_carocel from './components/skill carocel/skill_carocel';
 import Nav_menu from './components/Nav Menu/nav_menu';
@@ -12,7 +13,8 @@ function App() {
   return (
     <div className="App">
       <Nav_menu/>
-      <HeroSection/>
+      <Header/>
+      {/* <HeroSection/> */}
 
      <Skillt_carocel/>
      <About/>

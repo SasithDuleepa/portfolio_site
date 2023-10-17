@@ -1,0 +1,23 @@
+.header{
+    /* background-color: rgb(255, 255, 255); */
+    
+    width:100vw;
+
+    display: flex;
+    justify-content: center;
+}
+.header-main-div{
+    /* background-color: rgba(240, 248, 255, 0.989); */
+    height: 750px;
+    width: 1518px;
+    display: flex;
+    
+    
+}
+
+.wallpaper{
+    height: 750px;
+    width: 1520px;
+    position: relative;
+    opacity: .7;
+}

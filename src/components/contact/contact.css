@@ -1,0 +1,16 @@
+.contact{
+   
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+.contact-main-div{
+    width: 1518px;
+    height: 500px;
+    
+}
+.contact-title{
+    text-align: center;
+    font-size: 40px;
+}

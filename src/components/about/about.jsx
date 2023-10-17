@@ -4,6 +4,7 @@ import Me from '../../assets/me.jpeg';
 
 export default function About() {
   return (
+    <div className='about-main-div'>
     <div className='about'>
 
         <div className='about-div-1'>
@@ -21,6 +22,8 @@ export default function About() {
         <div className='about-div-2'>
             <img src={Me} alt="me" className='about-img'/>
         </div>
+    </div>
+
     </div>
   )
 }
